@@ -4,7 +4,7 @@ module.exports = {
   keyWords: ['gatsbyjs', 'react',],
   authorName: 'Justin Gardner',
   twitterUsername: 'just_n_gardner',
-  githubUsername: 'justinsgardner',
+  githubUsername: 'JustinSGardner',
   authorAvatar: '/images/profile.1.jpeg',
   authorDescription: `Developer who is very passionate about what I do. I have proven very capable in taking on new challenges as I have recently completed a Full Emmersive Coding Bootcamp while being a fully involved dad to a son(4yrs) daughter(3yrs) and a puppy(11wks) .<br /> 
   I am continuously learning and developing as a Public Speaker, Musician & Leader. `,
