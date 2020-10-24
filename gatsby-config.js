@@ -21,7 +21,7 @@ module.exports = {
         background_color: config.background_color,
         theme_color: config.theme_color,
         display: config.display,
-        icon: config.icon,
+        icon: `/src/favicon.ico`
       },
     },
     `gatsby-plugin-styled-components`,
