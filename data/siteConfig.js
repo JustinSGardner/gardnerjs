@@ -85,7 +85,7 @@ module.exports = {
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: '/src/favicon.ico',
+  icon: '/src/favicon/favicon.ico',
   headerLinks: [
     {
       label: 'Home',
