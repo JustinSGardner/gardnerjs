@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaReact, FaNodeJs, FaHtml5, FaCss3, FaPython, FaJs, FaGit } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
@@ -53,13 +53,13 @@ const Home = ({ className, location }) => {
                 alt='user avatar'
               />
               <div className="social">
-                {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
+                {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github} target="_blank">
                   <FaGithub className="social-icon" size="32" />
                 </a>}
-                {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
+                {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin} target="_blank">
                   <FaLinkedin className="social-icon" size="32" />
                 </a>}
-                {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
+                {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter} target="_blank">
                   <FaTwitter className="social-icon" size="32" />
                 </a>}
                 {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
@@ -74,6 +74,34 @@ const Home = ({ className, location }) => {
             </Col>
             <Col xs={4} sm={4}>
               <Skills title='Skills' skills={siteConfig.skills} />
+              <Row>
+                <a href="https://reactjs.org" target="_blank" rel="noreferrer">
+                  <FaReact className="skills-icon"size="102" /> 
+                </a>
+                <a href="https://html.com" target="_blank" rel="noreferrer">
+                  <FaHtml5 className="skills-icon" size="102" /> 
+                </a>
+                <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                  <FaNodeJs className="skills-icon" size="102" />
+                </a>
+                <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noreferrer">
+                  <FaCss3 className="skills-icon" size="102" />
+                </a>
+              </Row>
+              <Row>
+                <a href="https://python.org" target="_blank" rel="noreferrer">
+                  <FaPython className="skills-icon" size="102" />
+                </a>
+                <a href="https://javascript.com" target="_blank" rel="noreferrer">
+                  <FaJs className="skills-icon" size="102" />
+                </a>
+                <a href="https://git-scm.com" target="_blank" rel="noreferrer">
+                  <FaGit className="skills-icon" size="102" />
+                </a>
+                <a href="https://postgresql.com" target="_blank" rel="noreferrer">
+                  {/* <Postgresql className="skills-icon" size="102" /> */}
+                </a>
+              </Row>
             </Col>
           </Row>
           <Separator />
@@ -113,6 +141,15 @@ export default styled(Home)`
   .social-link {
     padding: 8px;
     color: #555;
+  }
+
+  .skills-icon {
+    padding: 12px;
+    color: #555;
+  }
+
+  .skills-icon:hover {
+    color: #0077B5;
   }
 
   a.social-link.twitter:hover {

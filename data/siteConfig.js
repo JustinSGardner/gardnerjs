@@ -1,12 +1,12 @@
 module.exports = {
   siteTitle: 'Welcome! I\'m Justin',
-  
+  siteDescription: 'gardnerjs.com',
   keyWords: ['gatsbyjs', 'react',],
   authorName: 'Justin Gardner',
   twitterUsername: 'just_n_gardner',
   githubUsername: 'JustinSGardner',
   authorAvatar: '/images/profile.1.jpeg',
-  authorDescription: `Developer who is very passionate about what I do. I have proven very capable in taking on new challenges as I have recently completed a Full Emmersive Coding Bootcamp while being a fully involved dad to a son(4yrs) daughter(3yrs) and a puppy(11wks) .<br /> 
+  authorDescription: `I am a Developer who is very passionate about what I do. I have proven very capable in taking on new challenges as I have recently completed a Full Immersive Coding Bootcamp while being a fully involved dad to 2 young children and a puppy (11wks).<br /> 
   I am continuously learning and developing as a Public Speaker, Musician & Leader. `,
   skills: [
     {
@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       name: 'CSS',
-      level: 70
+      level: 75
     },
     {
       name: 'Javascript',
@@ -85,8 +85,16 @@ module.exports = {
     },{
       image: "/images/gardnerjs.png",
       description: "This website; using React.js w/ Gatsby.js",
-      url: "https://github.com/JustinSGardner/"
-    },
+      url: "https://github.com/JustinSGardner/gardnerjs"
+    },{
+      image: "/images/memory-game.png",
+      description: "A matching game made for my son in React.js",
+      url: "https://github.com/JustinSGardner/memory-game"
+    },{
+      image: "/images/under-construction.png",
+      description: "More projects in the works... Check back.",
+      url: "https://github.com/JustinSGardner"
+    }
   ],
   social: {
     twitter: "https://twitter.com/just_n_gardner",
@@ -95,7 +103,7 @@ module.exports = {
     email: "justin@gardnerjs.com"
   },
   siteUrl: 'https://gardnerjs.com',
-  pathPrefix: '', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover1.2.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
