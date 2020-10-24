@@ -53,13 +53,13 @@ const Home = ({ className, location }) => {
                 alt='user avatar'
               />
               <div className="social">
-                {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github} target="_blank">
+                {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github} target="_blank" rel="noreferrer">
                   <FaGithub className="social-icon" size="32" />
                 </a>}
-                {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin} target="_blank">
+                {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin} target="_blank" rel="noreferrer">
                   <FaLinkedin className="social-icon" size="32" />
                 </a>}
-                {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter} target="_blank">
+                {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter} target="_blank" rel="noreferrer">
                   <FaTwitter className="social-icon" size="32" />
                 </a>}
                 {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
@@ -98,9 +98,7 @@ const Home = ({ className, location }) => {
                 <a href="https://git-scm.com" target="_blank" rel="noreferrer">
                   <FaGit className="skills-icon" size="102" />
                 </a>
-                <a href="https://postgresql.com" target="_blank" rel="noreferrer">
-                  {/* <Postgresql className="skills-icon" size="102" /> */}
-                </a>
+                
               </Row>
             </Col>
           </Row>
