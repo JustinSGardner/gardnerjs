@@ -8,33 +8,7 @@ module.exports = {
   authorAvatar: '/images/profile.1.jpeg',
   authorDescription: `I am a Developer who is very passionate about what I do. I have proven very capable in taking on new challenges as I have recently completed a Full Immersive Coding Bootcamp while being a fully involved dad to 2 young children and a puppy (11wks).<br /> 
   I am continuously learning and developing as a Public Speaker, Musician & Leader. `,
-  skills: [
-    {
-      name: 'HTML',
-      level: 75
-    },
-    {
-      name: 'CSS',
-      level: 75
-    },
-    {
-      name: 'Javascript',
-      level: 70
-    },
-    {
-      name: 'NodeJs',
-      level: 65
-    },
-    {
-      name: 'React',
-      level: 75
-    },
-    {
-      name: 'Git',
-      level: 70
-    },
-    /* more skills here */
-  ],
+  
   jobs: [
     {
       company: "DigitalCrafts",
@@ -103,7 +77,7 @@ module.exports = {
     email: "justin@gardnerjs.com"
   },
   siteUrl: 'https://gardnerjs.com',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/gardnerjs', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover1.2.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
