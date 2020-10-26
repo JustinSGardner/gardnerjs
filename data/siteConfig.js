@@ -77,7 +77,7 @@ module.exports = {
     email: "justin@gardnerjs.com"
   },
   siteUrl: 'https://gardnerjs.com',
-  pathPrefix: '/gardnerjs', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover1.2.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
