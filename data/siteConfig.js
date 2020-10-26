@@ -41,7 +41,7 @@ module.exports = {
       description: "Train and manage/coach a team of up to 24 employees. Implemented proven techniques and strategies in helping employees reach their full potential and acieve desired sales goals."
     }, 
   ],
-  portifolio: [
+  portfolio: [
     {
       image: "/images/salon.png",
       description: "Art review and social interaction platform",
@@ -92,8 +92,8 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
-      url: '/portifolio',
+      label: 'Portfolio',
+      url: '/portfolio',
     }
   ]
 }
