@@ -1,18 +1,18 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaReact, FaNodeJs, FaHtml5, FaCss3, FaPython, FaJs, FaGit } from "react-icons/fa"
-import siteConfig from '../../data/siteConfig'
-import { withPrefix } from "gatsby"
-import loadable from '@loadable/component'
+import React from 'react';
+import styled from 'styled-components';
+import { Container, Row, Col } from 'react-awesome-styled-grid';
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaReact, FaNodeJs, FaHtml5, FaCss3, FaPython, FaJs, FaGit } from "react-icons/fa";
+import siteConfig from '../../data/siteConfig';
+import { withPrefix } from "gatsby";
+import loadable from '@loadable/component';
 
-import Hero from '../components/hero'
-import SEO from '../components/SEO'
-import Wrapper from '../components/wrapper'
-import About from '../components/about'
-import Skills from '../components/skills'
-import Timeline from '../components/timeline'
-import Repositories from '../components/repositories'
+import Hero from '../components/hero';
+import SEO from '../components/SEO';
+import Wrapper from '../components/wrapper';
+import About from '../components/about';
+import Skills from '../components/skills';
+import Timeline from '../components/timeline';
+import Repositories from '../components/repositories';
 
 const Layout = loadable(() => import('../components/layout'))
 
@@ -54,16 +54,16 @@ const Home = ({ className, location }) => {
               />
               <div className="social">
                 {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github} target="_blank" rel="noreferrer">
-                  <FaGithub className="social-icon" size="32" />
+                  <FaGithub className="social-icon" size="54" />
                 </a>}
                 {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin} target="_blank" rel="noreferrer">
-                  <FaLinkedin className="social-icon" size="32" />
+                  <FaLinkedin className="social-icon" size="54" />
                 </a>}
                 {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter} target="_blank" rel="noreferrer">
-                  <FaTwitter className="social-icon" size="32" />
+                  <FaTwitter className="social-icon" size="54" />
                 </a>}
                 {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
-                  <FaEnvelope className="social-icon" size="32" />
+                  <FaEnvelope className="social-icon" size="54" />
                 </a>}
               </div>
             </Col>
