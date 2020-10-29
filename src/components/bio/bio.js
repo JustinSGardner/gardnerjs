@@ -27,8 +27,8 @@ const Bio = () => {
   `)
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
-  const author = data.site.siteMetadata?.authorName
-  const social = data.site.siteMetadata?.twitterUserName
+  const author = data.site.siteMetadata?.author
+  const social = data.site.siteMetadata?.social
 
   const avatar = data?.authorAvatar?.childImageSharp?.fixed
 
@@ -48,7 +48,7 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${twitter.userName || ``}`} target="_blank" rel="noreferrer">
+          <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank" rel="noreferrer">
             You should follow him on Twitter
           </a>
         </p>

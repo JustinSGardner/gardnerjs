@@ -77,12 +77,12 @@ module.exports = {
     {
       image: "/images/BlogPost1.png",
       description: "You CAN drink water through a fire hose!",
-      url: "/blog-content/blog-post.js",
+      slug: "/bootcamp",
     },
     {
       image: "/images/beyond-the-door.png",
-      description: "How to acheive greatness in Leadership.",
-      url: "/blog-content/blog-post.js",
+      description: "How to acheive GREATNESS in Leadership.",
+      slug: "/vision-casting",
     }
   ],
   social: {
