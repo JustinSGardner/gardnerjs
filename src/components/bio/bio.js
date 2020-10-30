@@ -5,7 +5,7 @@ import Image from "gatsby-image"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/images/profile.1.jpeg" }) {
         childImageSharp {
           fixed(width: 50, height: 50, quality: 95) {
             ...GatsbyImageSharpFixed
@@ -25,8 +25,6 @@ const Bio = () => {
       }
     }
   `)
-
-  // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
 
@@ -45,12 +43,10 @@ const Bio = () => {
         />
       )}
       {author?.name && (
-        <p>
+        
+        <p>          
           Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank" rel="noreferrer">
-            You should follow him on Twitter
-          </a>
+          {` `}          
         </p>
       )}
     </div>
