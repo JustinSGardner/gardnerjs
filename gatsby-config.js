@@ -4,7 +4,13 @@ module.exports = {
   siteMetadata: {
     title: config.siteTitle,
     description: config.siteDescription,
-    author: config.authorName,
+    author: {
+      name: config.authorName,
+      summary: `who lives and works in Houston, TX building useful things.`,
+    },
+    social: {
+      twitter: config.twitterUsername,
+    },
     ...config
   },
   pathPrefix: config.pathPrefix,
@@ -25,6 +31,14 @@ module.exports = {
         icon: config.icon,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
+    },
+
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,

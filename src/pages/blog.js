@@ -55,8 +55,8 @@ const Blog = ({ className, location }) => {
                 align="center"
               >
                 <BlogCard
-                  as={blog.url ? "a" : "div"}
-                  href={blog.url}
+                  as={blog.slug ? "a" : "div"}
+                  href={blog.slug}
                   target="_blank"
                 >
                   <Image src={withPrefix(blog.image)} />
