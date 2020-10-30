@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const actions = [
-  { icon: <TwitterIcon  />, name: "Twitter"  },
+  { icon: <TwitterIcon />, name: "Twitter", url:"https://twitter.com/share?ref_src=twsrc%5Etfw" },
   { icon: <FacebookIcon />, name: "Facebook" },
   { icon: <InstagramIcon />, name: "Instagram" },
   { icon: <PinterestIcon />, name: "Pinterest" },
@@ -63,6 +63,7 @@ export default function OpenIconSpeedDial() {
             key={action.name}
             icon={action.icon}
             tooltipTitle={action.name}
+            href={action.url}
             onClick={handleClose}
           />
         ))}
