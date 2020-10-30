@@ -81,7 +81,7 @@ module.exports = {
     },
     {
       image: "/images/beyond-the-door.png",
-      description: "How to acheive GREATNESS in Leadership.",
+      description: "How to achieve GREATNESS in Leadership.",
       slug: "/vision-casting",
     }
   ],

@@ -45,7 +45,8 @@
     "start": "npm run develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "react-test": "react-scripts test"
   },
   "devDependencies": {
     "babel-jest": "^26.6.1",
