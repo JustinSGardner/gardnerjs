@@ -43,6 +43,16 @@ module.exports = {
   ],
   portfolio: [
     {
+      image: "/images/squadmate.png",
+      description: "A Student-Athlete Coach's toolbox",
+      url: "https://squadmate.app"
+    },
+    {
+      image: "/images/terminal-kombat.png",
+      description: "Teminal-based fighting game in Python",
+      url: "https://github.com/JustinSGardner/Terminal-Kombat"
+    },
+    {
       image: "/images/salon.png",
       description: "Art review and social interaction platform",
       url: "https://salon-talk.com"
@@ -53,11 +63,6 @@ module.exports = {
       url: "https://to-do-today.netlify.app/"
     },
     {
-      image: "/images/terminal-kombat.png",
-      description: "Teminal-based fighting game in Python",
-      url: "https://github.com/JustinSGardner/Terminal-Kombat"
-    },
-    {
       image: "/images/gardnerjs.png",
       description: "This website; using React.js w/ Gatsby.js",
       url: "https://github.com/JustinSGardner/gardnerjs"
@@ -65,7 +70,7 @@ module.exports = {
     {
       image: "/images/memory-game1.png",
       description: "A matching game made for my son in React.js",
-      url: "https://github.com/JustinSGardner/memory-game"
+      url: "https://prestonsgame.netlify.app"
     },
     {
       image: "/images/under-construction.png",
