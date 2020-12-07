@@ -1,13 +1,13 @@
 module.exports = {
   siteTitle: 'GardnerJS.com ',
-  siteDescription: 'gardnerjs.com',
-  keyWords: ['gatsbyjs', 'react',],
+  siteDescription: 'A place to present myself',
+  keyWords: ['gatsbyjs', 'react', 'javascript', 'blog', 'developer', 'software developer', 'junior developer'],
   authorName: 'Justin Gardner',
   twitterUsername: 'just_n_gardner',
   githubUsername: 'JustinSGardner',
-  authorAvatar: '/images/profile.1.jpeg',
-  authorDescription: `Welcome! I'm Justin, a Developer who is very passionate about what I do. I have proven very capable in taking on new challenges as I have recently completed a Full Immersive Coding Bootcamp while being a fully involved dad to 2 young children and a puppy (11wks).<br /> 
-  I am continuously learning and developing as a Public Speaker, Musician & Leader. <br/><br/>Feel free to reach out through Social Media or Email me direct.`,
+  authorAvatar: '/images/profile.final.jpeg',
+  authorDescription: `Welcome! I'm Justin, a Full-Stack Developer who is very passionate about what I do. I have proven very capable in taking on new challenges as I have recently completed a Full Immersive Coding Bootcamp while being a fully involved dad to 2 young children(4yrs & 3yrs) and a puppy (11wks).<br /> 
+  I am continuously learning and developing as a Public Speaker, Musician & Leader. <br/><br/>Feel free to reach out through Social Media or Email me direct. <br/><br/>Cheers!`,
   
   jobs: [
     {
@@ -16,9 +16,9 @@ module.exports = {
         month: 'Jul',
         year: '2020'
       },
-      duration: null,
+      duration: '4mos',
       occupation: "Full Stack Developer",
-      description: "Soon to be a Graduate of a Full-Stack Coding Bootcamp where I have learned to solve challenges through the power of code."
+      description: "Graduated a Full-Stack Coding Bootcamp where I have learned to solve challenges through the power of code."
   
     },  {
       company: "National Analytical Laboratories",
@@ -43,6 +43,16 @@ module.exports = {
   ],
   portfolio: [
     {
+      image: "/images/squadmate.png",
+      description: "A Student-Athlete Coach's toolbox",
+      url: "https://squadmate.app"
+    },
+    {
+      image: "/images/terminal-kombat.png",
+      description: "Teminal-based fighting game in Python",
+      url: "https://github.com/JustinSGardner/Terminal-Kombat"
+    },
+    {
       image: "/images/salon.png",
       description: "Art review and social interaction platform",
       url: "https://salon-talk.com"
@@ -53,19 +63,14 @@ module.exports = {
       url: "https://to-do-today.netlify.app/"
     },
     {
-      image: "/images/terminal-kombat.png",
-      description: "Teminal-based fighting game in Python",
-      url: "https://github.com/JustinSGardner/Terminal-Kombat"
-    },
-    {
       image: "/images/gardnerjs.png",
       description: "This website; using React.js w/ Gatsby.js",
       url: "https://github.com/JustinSGardner/gardnerjs"
     },
     {
-      image: "/images/memory-game.png",
+      image: "/images/memory-game1.png",
       description: "A matching game made for my son in React.js",
-      url: "https://github.com/JustinSGardner/memory-game"
+      url: "https://prestonsgame.netlify.app"
     },
     {
       image: "/images/under-construction.png",
@@ -77,12 +82,12 @@ module.exports = {
     {
       image: "/images/BlogPost1.png",
       description: "You CAN drink water through a fire hose!",
-      slug: "/bootcamp",
+      // slug: "/bootcamp",
     },
     {
       image: "/images/beyond-the-door.png",
       description: "How to achieve GREATNESS in Leadership.",
-      slug: "/vision-casting",
+      // slug: "/vision-casting",
     }
   ],
   social: {

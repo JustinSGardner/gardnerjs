@@ -6,10 +6,10 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
-
 
   return (
 
@@ -33,19 +33,14 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <SpeedDial />
         <hr />
-          <footer>
-          <img
-                className='avatar__image'
-                src='/images/profile.1.jpeg'
-                alt='user avatar'
-                
-              />
+          <footer>          
           <Bio />         
         </footer>
       </article>
     </Layout>
   )
 }
+
 
 
 export default BlogPostTemplate

@@ -1,28 +1,20 @@
-
-
-
-
+---
+title: You CAN drink water through a fire hose! 
+date: 2020-11-17
+description: This is a blog about my experience going through a coding bootcamp at DigitalCrafts in Houston, Texas.
 
 ---
 
-Tite: New Beginnings date: YYYY-MM-DD
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 
----
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
 
-## On deer horse aboard tritely yikes and much
+### The visual you most likely have in your mind right now accurately describes what it felt like for 16 weeks going through a Coding Bootcamp with DigitalCrafts in Houston, Texas!
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
 
-- This however showed weasel
+
+
+
+- A true passion to learn and build
 - Well uncritical so misled
   - this is very interesting
 - Goodness much until that fluid owl
@@ -32,7 +24,6 @@ view back on the skyline of her hometown _Bookmarksgrove_, the headline of
 [Alphabet Village](http://google.com) and the subline of her own road, the Line
 Lane. Pityful a rhetoric question ran over her cheek, then she continued her
 way. On her way she met a copy.
-
 ### Overlaid the jeepers uselessly much excluding
 
 But nothing the copy said could convince her and so it didn’t take long until a
