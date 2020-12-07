@@ -82,12 +82,12 @@ module.exports = {
     {
       image: "/images/BlogPost1.png",
       description: "You CAN drink water through a fire hose!",
-      slug: "/bootcamp",
+      // slug: "/bootcamp",
     },
     {
       image: "/images/beyond-the-door.png",
       description: "How to achieve GREATNESS in Leadership.",
-      slug: "/vision-casting",
+      // slug: "/vision-casting",
     }
   ],
   social: {
