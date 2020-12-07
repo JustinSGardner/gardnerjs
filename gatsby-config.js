@@ -6,7 +6,7 @@ module.exports = {
     description: config.siteDescription,
     author: {
       name: config.authorName,
-      summary: `who lives and works in Houston, TX building useful things.`,
+      summary: `who lives and works near Houston, TX learning and developing useful things.`,
     },
     social: {
       twitter: config.twitterUsername,
