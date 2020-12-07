@@ -4,13 +4,20 @@ module.exports = {
   siteMetadata: {
     title: config.siteTitle,
     description: config.siteDescription,
-    author: config.authorName,
+    author: {
+      name: config.authorName,
+      summary: `who lives and works in Houston, TX building useful things.`,
+    },
+    social: {
+      twitter: config.twitterUsername,
+    },
     ...config
   },
   pathPrefix: config.pathPrefix,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -24,6 +31,13 @@ module.exports = {
         icon: config.icon,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
+    },
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -31,8 +45,5 @@ module.exports = {
         trackingId: config.googleAnalyticsId,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ],
 }

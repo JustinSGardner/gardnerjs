@@ -1,13 +1,13 @@
 module.exports = {
-  siteTitle: 'Welcome! I\'m Justin',
+  siteTitle: 'GardnerJS.com ',
   siteDescription: 'gardnerjs.com',
   keyWords: ['gatsbyjs', 'react',],
   authorName: 'Justin Gardner',
   twitterUsername: 'just_n_gardner',
   githubUsername: 'JustinSGardner',
   authorAvatar: '/images/profile.1.jpeg',
-  authorDescription: `I am a Developer who is very passionate about what I do. I have proven very capable in taking on new challenges as I have recently completed a Full Immersive Coding Bootcamp while being a fully involved dad to 2 young children and a puppy (11wks).<br /> 
-  I am continuously learning and developing as a Public Speaker, Musician & Leader. `,
+  authorDescription: `Welcome! I'm Justin, a Developer who is very passionate about what I do. I have proven very capable in taking on new challenges as I have recently completed a Full Immersive Coding Bootcamp while being a fully involved dad to 2 young children and a puppy (11wks).<br /> 
+  I am continuously learning and developing as a Public Speaker, Musician & Leader. <br/><br/>Feel free to reach out through Social Media or Email me direct.`,
   
   jobs: [
     {
@@ -56,18 +56,33 @@ module.exports = {
       image: "/images/terminal-kombat.png",
       description: "Teminal-based fighting game in Python",
       url: "https://github.com/JustinSGardner/Terminal-Kombat"
-    },{
+    },
+    {
       image: "/images/gardnerjs.png",
       description: "This website; using React.js w/ Gatsby.js",
       url: "https://github.com/JustinSGardner/gardnerjs"
-    },{
+    },
+    {
       image: "/images/memory-game.png",
       description: "A matching game made for my son in React.js",
       url: "https://github.com/JustinSGardner/memory-game"
-    },{
+    },
+    {
       image: "/images/under-construction.png",
       description: "More projects in the works... Check back.",
       url: "https://github.com/JustinSGardner"
+    }
+  ],
+  blog:[
+    {
+      image: "/images/BlogPost1.png",
+      description: "You CAN drink water through a fire hose!",
+      slug: "/bootcamp",
+    },
+    {
+      image: "/images/beyond-the-door.png",
+      description: "How to achieve GREATNESS in Leadership.",
+      slug: "/vision-casting",
     }
   ],
   social: {
@@ -94,6 +109,10 @@ module.exports = {
     {
       label: 'Portfolio',
       url: '/portfolio',
+    },
+    {
+      label: 'Blog',
+      url: '/blog',
     }
   ]
 }
