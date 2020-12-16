@@ -81,12 +81,12 @@ module.exports = {
   blog:[
     {
       image: "/images/BlogPost1.png",
-      description: "You CAN drink water through a fire hose!",
+      description: "COMING SOON: You CAN drink water through a fire hose!",
       // slug: "/bootcamp",
     },
     {
       image: "/images/beyond-the-door.png",
-      description: "How to achieve GREATNESS in Leadership.",
+      description: "COMING SOON: How to achieve GREATNESS in Leadership.",
       // slug: "/vision-casting",
     }
   ],
