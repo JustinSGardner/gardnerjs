@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'GardnerJS.com ',
+  siteTitle: 'GardnerJS',
   siteDescription: 'A place to present myself',
   keyWords: ['gatsbyjs', 'react', 'javascript', 'blog', 'developer', 'software developer', 'junior developer'],
   authorName: 'Justin Gardner',
