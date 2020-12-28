@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Justin Gardner',
   twitterUsername: 'just_n_gardner',
   githubUsername: 'JustinSGardner',
-  authorAvatar: '/images/profile.final.jpeg',
+  authorAvatar: '/images/profile_image.final.jpeg',
   authorDescription: `Welcome! I'm Justin, a Full-Stack Developer who is very passionate about what I do. I have proven very capable in taking on new challenges as I have recently completed a Full Immersive Coding Bootcamp while being a fully involved dad to 2 young children(4yrs & 3yrs) and a puppy (11wks).<br /> 
   I am continuously learning and developing as a Public Speaker, Musician & Leader. <br/><br/>Feel free to reach out through Social Media or Email me direct. <br/><br/>Cheers!`,
   
