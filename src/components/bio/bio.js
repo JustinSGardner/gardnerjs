@@ -46,7 +46,7 @@ const Bio = () => {
         <div>
           <img
               className='avatar__image'
-              src='/images/jj47.JPG'
+              src='/images/profile_image.final.JPG'
               alt='user avatar'
                 
           /><p>  
