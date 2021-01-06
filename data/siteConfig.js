@@ -90,6 +90,9 @@ module.exports = {
       // slug: "/vision-casting",
     }
   ],
+  resume:[
+    image: 
+  ]
   social: {
     twitter: "https://twitter.com/just_n_gardner",
     linkedin: "https://www.linkedin.com/in/justin-gardner-981477156/",
